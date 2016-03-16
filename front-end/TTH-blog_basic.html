@@ -1,0 +1,115 @@
+<!doctype html>
+<!--
+  Material Design Lite
+  Copyright 2015 Google Inc. All rights reserved.
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      https://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License
+-->
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+	  <meta name="google-site-verification" content="7FTv02cJPBfORZgW6wyRjbXFUQu7n-dyWxyx62uPge8" />
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TTH blog</title>
+
+	<!--------------- STYLE ---------------------------------------------------------->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+	  <link rel="stylesheet" href="css/material.css">
+    <link rel="stylesheet" href="css/TTH-blog_basic.css">
+    <link rel="stylesheet" href="fonts/material-icons.css">
+
+  <style>
+    #view-source {
+      position: fixed;
+      display: block;
+      right: 0;
+      bottom: 0;
+      margin-right: 40px;
+      margin-bottom: 40px;
+      z-index: 900;
+    }
+  </style>
+</head>
+
+<!--########################## BODY ##################################-->
+<body>
+  <div class="mdl-layout__container">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+
+<!-------------- FIXED HEADER ---------------------------------------------->
+      <header class=" mdl-layout__header mdl-color--grey-500 TTH-color-text--ruby">
+          <span>TheTradingHall blog</span>
+          <div class="mdl-layout-spacer"></div>
+          <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable">
+            <label class="mdl-button mdl-js-button mdl-button--icon" for="search">
+              <i class="material-icons">search</i>
+            </label>
+            <div class="mdl-textfield__expandable-holder">
+              <input class="mdl-textfield__input" type="text" id="search">
+              <label class="mdl-textfield__label" for="search">Enter your query...</label>
+            </div>
+          </div>
+      </header>
+
+<!------------------------ DRAWER -------------------------------->
+	    <nav class="mdl-layout__drawer mdl-color--blue-grey-400">
+		      <a href="https://www.thetradinghall.com" target="_blank">
+		        <img src="TTH-logo-98x98.svg" class="mdl-logo TTH-transform--rotate" alt="TTH logo">
+		      </a>
+		    <div class="mdl-layout__header-row fa">
+			    <a href="#" target="_blank" class="fa-slack"></a>
+			    <a href="#" target="_blank" class="fa-twitter"></a>
+		    </div>
+		    <div class="mdl-navigation mdl-color--grey-500">
+          <a href="#">About Me</a>
+          <a href="#">About TTH</a>
+          <a href="#"><i class="material-icons" role="presentation">help_outline</i>
+            <span class="visuallyhidden">Help</span></a></li>
+		    </div>
+          <img src="img/television2.svg" class="mdl-logo TTH-width--200 TTH-animation--shake"></img>
+      </nav>
+
+<!-------------- MAIN CONTENT ------------------------>
+      <main class="mdl-layout__content mdl-color--grey-300">
+        <div class="mdl-grid">
+          <h2>This is the main content</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum sequi nisi aliquam,
+            ipsum tempore illo recusandae. Odit consectetur totam hic eius, commodi molestiae voluptates porro vel
+            laboriosam, tempore, nostrum quis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos
+            mollitia vero facilis, deserunt omnis, fugit quod nam, neque iusto reprehenderit tempora. Atque fuga inventore
+            perferendis harum et culpa repudiandae, laudantium. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Assumenda dolorum ea at nobis dolores doloremque incidunt voluptate, dignissimos, veniam soluta temporibus sint
+            error odit nesciunt ducimus excepturi quam, itaque eos! Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+            Ex, molestiae, delectus nemo quibusdam odit fugiat velit facilis soluta odio ipsam ullam alias repellat. Ipsam
+            porro voluptate adipisci nihil assumenda, ab.
+            </p>
+        </div>
+      </main>
+
+<!-------------- FOOTER ------------------------>
+      <footer class="mdl-mini-footer mdl-color--grey-400">
+        <div class="mdl-mini-footer__right-section TTH-color-text--ruby">
+          <ul class="mdl-mini-footer__link-list">
+            <li><a href="#">Privacy & Terms</a></li>
+          </ul>
+        </div>
+      </footer>
+
+    </div>
+  </div>
+<script src="https://code.getmdl.io/1.1.1/material.min.js"></script>
+</body>
+</html>

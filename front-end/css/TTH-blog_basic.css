@@ -1,0 +1,248 @@
+/* TTH-blog_basic Last edited 2016-03-16 */
+/* =====================================================================
+  FONTS
+===================================================================== */
+/* inconsolata-regular - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/inconsolata-v12-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata'),
+       url('fonts/inconsolata-v12-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/inconsolata-v12-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/inconsolata-v12-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/inconsolata-v12-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/inconsolata-v12-latin-regular.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+/* inconsolata-700 - latin */
+@font-face {
+  font-family: 'Inconsolata';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/inconsolata-v12-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Inconsolata Bold'), local('Inconsolata-Bold'),
+       url('fonts/inconsolata-v12-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/inconsolata-v12-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/inconsolata-v12-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/inconsolata-v12-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/inconsolata-v12-latin-700.svg#Inconsolata') format('svg'); /* Legacy iOS */
+}
+/* bitter-regular - latin */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 400;
+  src: url('fonts/bitter-v7-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local('Bitter-Regular'),
+       url('fonts/bitter-v7-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bitter-v7-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/bitter-v7-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/bitter-v7-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bitter-v7-latin-regular.svg#Bitter') format('svg'); /* Legacy iOS */
+}
+/* bitter-700 - latin */
+@font-face {
+  font-family: 'Bitter';
+  font-style: normal;
+  font-weight: 700;
+  src: url('fonts/bitter-v7-latin-700.eot'); /* IE9 Compat Modes */
+  src: local('Bitter-Bold'),
+       url('fonts/bitter-v7-latin-700.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/bitter-v7-latin-700.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/bitter-v7-latin-700.woff') format('woff'), /* Modern Browsers */
+       url('fonts/bitter-v7-latin-700.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/bitter-v7-latin-700.svg#Bitter') format('svg'); /* Legacy iOS */
+}
+
+/*======================================
+ COLORS
+ ======================================*/
+.TTH-color--ghost-white {
+	background: rgb(248, 248, 255)
+}
+.TTH-color-text--ghost-white {
+	color: rgb(248, 248, 255) !important;
+}
+.TTH-color-text--ruby {
+	color: rgb(121, 6, 31);
+}
+.blue-TTH-text--100{
+	color: rgb(210, 212, 249);
+}
+.blue-TTH-text--200{
+	color: rgb(165, 169, 243);
+}
+.blue-TTH-text--300{
+	color: rgb(120, 126, 237);
+}
+.blue-TTH-text--400{
+	color: rgb(75, 83, 231);
+}
+.blue-TTH-text--500{
+	color: rgb(26,35,183);
+}
+.blue-TTH-text--600{
+	color: rgb(24, 32, 180);
+}
+.blue-TTH-text--700{
+	color: rgb(18, 24, 135);
+}
+/*================================
+ SIZE
+ ==============================*/
+.TTH-width--200 {
+  width: 200px;
+}
+
+/*================================
+ HTML ELEMENTS
+ ==============================*/
+ html, body, p {
+	font-family: "Inconsolata", sans-serif;
+  font-size: 16px;
+}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+  font-family: "Bitter", serif;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Bitter", serif;
+}
+a {
+    color: rgb(248, 248, 255);
+    font-weight: 700;
+}
+blockquote {
+	font-family: "Bitter", serif;
+}
+
+/*============================================
+ IMAGES
+==============================================*/
+.mdl-logo {
+    border-style: solid;
+	margin-top: 25px;
+	margin-bottom: 25px;
+  margin-left: 16px;
+}
+
+/*============================================
+ TRANSFORM
+==============================================*/
+.TTH-transform--rotate {
+	transition: transform .5s;
+	-webkit-transform: .5s; /* Safari */
+}
+.TTH-transform--rotate:hover {
+	transform: rotate(360deg);
+	-webkit-transform: rotate(360deg); /* Safari */
+}
+.TTH-animation--shake:hover{
+	animation: shake 1.5s ;
+	transform: translate3d(0, 0, 0);
+	backface-visibility: hidden;
+	perspective: 1000px;;
+}
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  20%, 80% {
+    transform: translate3d(15px, 0, 0);
+  }
+  30%, 50%, 70% {
+    transform: translate3d(-10px, 0, 0);
+  }
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*=============================================
+ HEADER
+=============================================*/
+.mdl-layout__header {
+  border: red;
+  border-style: solid;
+  padding: 0 40px 0 70px;
+  align-items: center;
+  flex-direction: row;
+  font-size: 3.5vw;
+  font-weight: 700;
+}
+.mdl-layout__header, .mdl-layout__drawer {
+  font-family: "Bitter", serif;
+}
+.mdl-layout__header .mdl-layout__drawer-button {
+  color: rgb(121, 6, 31);
+  border: blue;
+  border-style: solid;
+}
+.mdl-layout-spacer {
+  border: yellow;
+  border-style: solid;
+}
+.mdl-textfield {
+  border: green;
+  border-style: solid;
+}
+
+/*=============================================
+ DRAWER
+==============================================*/
+.mdl-layout__drawer {
+  border: yellow;
+  border-style: solid;
+	align-items: center;
+	line-height: 10vh;
+  height: initial;
+  max-height: none;
+  min-height: 100%;
+  text-shadow: 1px 3px rgba(0,0,0,0.3);
+}
+.mdl-layout__drawer a {
+	text-decoration: none;
+}
+.mdl-layout__drawer a:hover {
+	color: rgb(18, 24, 135);
+}
+/*======== DRAWER-SOCIAL LINKS ===============*/
+.fa {
+  border: green;
+  border-style: solid;
+}
+.mdl-layout__header-row {
+  padding: 0 10px 0 10px;
+  justify-content: space-around;
+  font-size: 2rem;
+}
+/*========= DRAWER-SITE NAVIGATION ==========*/
+.mdl-layout__drawer .mdl-navigation {
+  border: red;
+  border-style: solid;
+  width: 100%;
+  font-size: 1.7rem;
+  align-items: center;
+  padding-top: initial;
+}
+/*=============================================
+ FOOTER
+==============================================*/
+.mdl-mini-footer {
+  border: green;
+  border-style: solid;
+  padding: 22px 16px;
+}
+
+/*=============================================
+ MAIN CONTENT
+==============================================*/
+.mdl-layout__content {
+  border: blue;
+  border-style: solid;
+}
+
+.mdl-mini-footer__right-section {
+  border: blue;
+  border-style: solid;
+}
