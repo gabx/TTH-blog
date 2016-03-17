@@ -2,6 +2,12 @@
 Back and front end for blog.thetradinghall.com.
 
 ## FRONT-END
+
+Files `TTH-blog_basic.html` and `css/TTH-blog_basic.css` are the basis for TTH blog
+page. Most important elements have been framed with color to highlight them. You can see
+this template in action at this link.
+
+
 ### Template
 
 The template used for the blog is [material design lite](https://www.getmdl.io/), written by GOOGLE. Some more ideas come from [w3schools](http://www.w3schools.com/w3css/demo_template_blog.htm) blog template and [callmenick](http://callmenick.com/) blog and tutorials.
