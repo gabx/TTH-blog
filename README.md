@@ -46,6 +46,8 @@ Blocks can be moved around on a page, moved between pages or projects. The imple
 
 TO WRITE: with HTTP2, best practice is to split CSS files and load them in sequence.
 
+See also [Filament group](https://github.com/filamentgroup) github.
+
 #### HTML
 
 TO WRITE : header meta data, [Google Webmasters](https://www.google.com/webmasters/#?modal_active=none)
