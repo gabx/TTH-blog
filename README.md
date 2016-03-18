@@ -5,7 +5,7 @@ Back and front end for blog.thetradinghall.com.
 
 Files `TTH-blog_basic.html` and `css/TTH-blog_basic.css` are the basis for TTH blog
 page. Most important elements have been framed with color to highlight them. You can see
-this template in action at this link.
+this template in action at [this link](https://www.thetradinghall.com/demo/).
 
 
 ### Template
